@@ -1,7 +1,7 @@
 # AluraImersaoGemini
 
 ### Descrição
-Este repositório contém uma base de conhecimento completa sobre o universo de Ordem Paranormal. Aqui você encontrará informações detalhadas sobre as campanhas, graphic novels e ocultismo da série. A base de dados é alimentada diretamente pela wiki oficial da Ordem Paranormal, permitindo que você encontre rapidamente as informações que procura através da nossa barra de pesquisa.
+Este repositório contém uma base de conhecimento sobre o universo de Ordem Paranormal. Aqui você encontrará informações detalhadas sobre as campanhas, graphic novels e ocultismo da série. A base de dados é alimentada diretamente pela wiki oficial da Ordem Paranormal, permitindo que você encontre rapidamente as informações que procura através da nossa barra de pesquisa.
 
 A Ordem Paranormal é uma websérie brasileira que explora o universo de investigação do terror e do sobrenatural de forma envolvente e divertida. Criada pelo streamer Rafael "Cellbit" Lange, a série começou com campanhadas de RPG de mesa em transmissões ao vivo na Twitch e pode ser encontrada no YouTube 
 
