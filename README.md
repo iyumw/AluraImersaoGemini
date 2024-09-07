@@ -11,12 +11,15 @@ A Ordem Paranormal é uma websérie brasileira que explora o universo de investi
 - **JavaScript**: Interatividade
 
 ### Como usar:
+1. **[Acesse o site](https://alura-imersao-gemini-two.vercel.app/)**
 1. **Digite sua pesquisa:** Na caixa de pesquisa, escreva a palavra-chave que deseja pesquisar sobre.
    - Como exemplo, pode buscar por "temporadas" para visualizar todas as temporadas do RPG.
 2. **Clique em pesquisar:** Nossa função inteligente irá vasculhar as informações e te mostrar os resultados mais relevantes.
 3. **Explore os resultados:** Clique nos títulos para descobrir mais informações sobre o assunto desejado.
 
-### Esse site foi construído utilizando o [Vercel](https://alura-imersao-gemini-two.vercel.app/).
+#### Esse site foi construído utilizando o [Vercel](https://alura-imersao-gemini-two.vercel.app/)
 
 ### Recursos Adicionais
-[\[Link para a wiki oficial\]](https://ordemparanormal.fandom.com/wiki/Ordem_Paranormal_Wiki)
+
+**[\[Link para a wiki oficial\]](https://ordemparanormal.fandom.com/wiki/Ordem_Paranormal_Wiki)**
+
