@@ -30,6 +30,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 /* Estiliza os títulos h1 */
@@ -39,7 +40,7 @@ h1 {
 
 h1 img {
     box-sizing: border-box;
-    padding-top: 93px;
+    padding-top: 56px;
     height: 226px;
 }
 
@@ -50,6 +51,14 @@ h5 {
     margin-top: 0;
     text-shadow: 1px 1px 1px #888;
 }
+
+.sem-resultados {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #8753c8;
+    /* Adicione aqui os outros estilos que desejar */
+  }
 
 .container {
     background-color: #fff;
@@ -65,7 +74,7 @@ section {
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    margin-bottom: 2rem; /* Espaçamento abaixo de cada seção */
 
 }
 
@@ -96,13 +105,13 @@ section button {
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 46vh; /* Altura máxima da caixa de resultados */
+    height: 34vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     padding-top: 0;
     border-radius: 0.6rem; /* Borda arredondada */
-    margin-bottom: 0px;
+    margin-bottom: 82px;
     padding-bottom: 0px;
 }
 
@@ -144,16 +153,6 @@ section button:hover {
     background-color: #ffed00; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
     color: black;
-}
-
-/* Estiliza a caixa de resultados da pesquisa */
-.resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 46vh; /* Altura máxima da caixa de resultados */
-    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 0.6rem; /* Borda arredondada */
 }
 
 .resultados-pesquisa::-webkit-scrollbar {
@@ -219,6 +218,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+
     h1 {
         font-size: 2rem; /* Tamanho da fonte em telas menores */
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
@@ -242,9 +242,25 @@ footer {
 /* Responsividade para celulares */
 @media (max-width: 480px) {
 
+    h1 img {
+        padding-top: 92px;
+        padding-left: 15px;
+    }
+
     h1 {
-        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
+        font-size: 0.7rem; /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+
+    h5 {
+        font-size: 0.7rem; /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    section{
+        margin-bottom: 7px;
     }
 
     section input {
@@ -258,7 +274,7 @@ footer {
 
     .resultados-pesquisa {
         width: 90%; /* Largura da caixa de resultados em telas pequenas */
-        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+        height: 33vh; /* Altura da caixa de resultados em telas pequenas */
     }
 
     .item-resultado h2 {
@@ -267,5 +283,9 @@ footer {
 
     footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+        padding-right: 5px;
+        padding-left: 5px;
     }
 }
+
+
